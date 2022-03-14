@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, AEON, The Monero Project
+// Copyright (c) 2014-2022, BITRUBCOIN, The Monero Project
 // 
 // All rights reserved.
 // 
@@ -886,15 +886,15 @@ namespace cryptonote
     switch (std::atomic_load(&default_decimal_point))
     {
       case 12:
-        return "aeon";
+        return "bitrubcoin";
       case 9:
-        return "milliaeon";
+        return "millibitrubcoin";
       case 6:
-        return "microaeon";
+        return "microbitrubcoin";
       case 3:
-        return "nanoaeon";
+        return "nanobitrubcoin";
       case 0:
-        return "picoaeon";
+        return "picobitrubcoin";
       default:
         ASSERT_MES_AND_THROW("Invalid decimal point specification: " << default_decimal_point);
     }

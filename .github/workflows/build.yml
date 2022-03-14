@@ -18,7 +18,7 @@ jobs:
       run: USE_SINGLE_BUILDDIR=1 make release-static -j3
     - name: archive
       run: |
-        export ARTIFACT_NAME="aeon-mac-x64-$(git describe --tags)"
+        export ARTIFACT_NAME="bitrubcoin-mac-x64-$(git describe --tags)"
         mkdir $ARTIFACT_NAME
         cp bin/* $ARTIFACT_NAME
         tar cvzf $ARTIFACT_NAME.tar.bz2 $ARTIFACT_NAME
@@ -52,7 +52,7 @@ jobs:
       run: USE_SINGLE_BUILDDIR=1 make release-static-win64 -j2
     - name: archive
       run: |
-        export ARTIFACT_NAME="aeon-win-x64-$(git describe --tags)"
+        export ARTIFACT_NAME="bitrubcoin-win-x64-$(git describe --tags)"
         mkdir $ARTIFACT_NAME
         cp bin/* $ARTIFACT_NAME
         zip -r9 $ARTIFACT_NAME.zip $ARTIFACT_NAME
@@ -90,7 +90,7 @@ jobs:
       run: USE_SINGLE_BUILDDIR=1 make release-static -j3
     - name: archive
       run: |
-        export ARTIFACT_NAME="aeon-linux-x64-$(git describe --tags)"
+        export ARTIFACT_NAME="bitrubcoin-linux-x64-$(git describe --tags)"
         mkdir $ARTIFACT_NAME
         cp bin/* $ARTIFACT_NAME
         tar cvzf $ARTIFACT_NAME.tar.bz2 $ARTIFACT_NAME

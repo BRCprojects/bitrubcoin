@@ -1,4 +1,4 @@
-# Copyright (c) 2017-2019, AEON, The Monero Project
+# Copyright (c) 2017-2022, BITRUBCOIN, The Monero Project
 #
 # All rights reserved.
 #

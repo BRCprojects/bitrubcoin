@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, AEON, The Monero Project
+// Copyright (c) 2014-2022, BITRUBCOIN, The Monero Project
 // 
 // All rights reserved.
 // 
@@ -176,7 +176,7 @@ namespace daemonizer
     }
     else // interactive
     {
-      //LOG_PRINT_L0("Aeon '" << MONERO_RELEASE_NAME << "' (v" << MONERO_VERSION_FULL);
+      //LOG_PRINT_L0("BitRubCoin '" << MONERO_RELEASE_NAME << "' (v" << MONERO_VERSION_FULL);
       return executor.run_interactive(vm);
     }
 

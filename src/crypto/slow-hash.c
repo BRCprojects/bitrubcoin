@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, AEON, The Monero Project
+// Copyright (c) 2014-2022, BITRUBCOIN, The Monero Project
 //
 // All rights reserved.
 //
@@ -244,7 +244,7 @@ STATIC INLINE int force_software_aes(void)
   if (use != -1)
     return use;
 
-  const char *env = getenv("AEON_USE_SOFTWARE_AES");
+  const char *env = getenv("BITRUBCOIN_USE_SOFTWARE_AES");
   if (!env) {
     use = 0;
   }

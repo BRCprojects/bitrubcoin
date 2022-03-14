@@ -1,4 +1,4 @@
-// Copyright (c) 2017-2019, AEON, The Monero Project
+// Copyright (c) 2017-2022, BITRUBCOIN, The Monero Project
 // 
 // All rights reserved.
 // 
@@ -46,7 +46,7 @@ namespace tools
 
     // All four MoneroPulse domains have DNSSEC on and valid
     static const std::vector<std::string> dns_urls = {
-        // TODO: setup DNS TXT record for Aeon updates
+        // TODO: setup DNS TXT record for BitRubCoin updates
         /*
         "updates.moneropulse.org",
         "updates.moneropulse.net",

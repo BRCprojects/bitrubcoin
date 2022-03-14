@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, AEON, The Monero Project
+// Copyright (c) 2014-2022, BITRUBCOIN, The Monero Project
 //
 // All rights reserved.
 //
@@ -408,8 +408,8 @@ namespace dns_utils
 // TODO: parse the string in a less stupid way, probably with regex
 std::string address_from_txt_record(const std::string& s)
 {
-  // make sure the txt record has "oa1:aeon" and find it
-  auto pos = s.find("oa1:aeon");
+  // make sure the txt record has "oa1:bitrubcoin" and find it
+  auto pos = s.find("oa1:bitrubcoin");
   if (pos == std::string::npos)
     return {};
   // search from there to find "recipient_address="

@@ -6,7 +6,7 @@
 
 */
 
-// Copyright (c) 2014-2022, BITRUBCOIN, The Monero Project
+// Copyright (c) 2014-2019, BITRUBCOIN, The Monero Project
 // 
 // All rights reserved.
 // 

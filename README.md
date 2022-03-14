@@ -14,7 +14,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/BRCprojects/bitrubcoin.svg)](../../issues)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/BRCprojects/bitrubcoin.svg)](../../issues)
 
-Copyright (c) 2014-2022, BITRUBCOIN, The Monero Project.   
+Copyright (c) 2014-2019, BITRUBCOIN, The Monero Project.   
 Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
@@ -98,7 +98,7 @@ Dates are provided in the format YYYY-MM-DD.
 | ------------------------------ | -----------| ----------------- | ---------------------- | -------------------------- | ---------------------------------------------------------------------------------- |
 | 592000                        | 2015-08-04 | v1 (exceptional, version not bumped)      | v0.9.0.0                 | v0.9.14.0                     | blocktime = 240 seconds, CryptoNight-Lite, lower mining priority for ringsize < 3       |
 | 963500                        | 2018-06-03 | v7                | v0.12.0.0                 | v0.12.9.0-bitrubcoin                    | Rebase to Monero's latest codebase with RingCT disabled, CryptoNight-Lite variant 1, limited use of ringsize 1, ban ringsize 2   |
-| 1146200                       | 2022-10-25 | v8                | v0.13.0.0-bitrubcoin            | v0.13.1.0-bitrubcoin                    | Switch to K12 PoW, reduced tx size with Borromean sigs, fixed ringsize 3, long-term block size, enforced 10 block age   |
+| 1146200                       | 2019-10-25 | v8                | v0.13.0.0-bitrubcoin            | v0.13.1.0-bitrubcoin                    | Switch to K12 PoW, reduced tx size with Borromean sigs, fixed ringsize 3, long-term block size, enforced 10 block age   |
 | 1280000                       | 2020-11-11 | v9                | v0.14.1.0-bitrubcoin            | v0.14.1.0-bitrubcoin                    | Difficulty algorithm variant 9 (cut/sort removed, lag reduced to 8), change to the block median used to calculate penalty, deterministic unlock times   |
 
 ## Compiling BitRubCoin from source

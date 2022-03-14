@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2022, BITRUBCOIN, The Monero Project
+// Copyright (c) 2014-2019, BITRUBCOIN, The Monero Project
 //
 // All rights reserved.
 //
@@ -96,7 +96,7 @@ static const struct {
   // version 7 starts from block 963500, which is on or around the 3rd of June, 2018. Fork time finalised on 2018-05-24.
   { 7, 963500, 0, 1527137212, 2000000000 },
 
-  // version 8 (PoW change to k12) starts from block 1146200 (with reset diff 20 trillion) which is on or around the 25th of October, 2022. Fork time finalised on 2022-09-19.
+  // version 8 (PoW change to k12) starts from block 1146200 (with reset diff 20 trillion) which is on or around the 25th of October, 2019. Fork time finalised on 2019-09-19.
   { 8, 1146200, 0, 1568879768, 20000000000000 },
 
   // version 9 (difficulty algorithm variant 9) starts from block 1280000 (with no diff reset) which is on or around the 11th of November, 2020
